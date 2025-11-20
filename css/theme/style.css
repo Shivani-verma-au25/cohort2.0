@@ -1,0 +1,35 @@
+/* Light Theme (default) */
+body {
+  background-color: #ffffff;
+  color: #000000;
+  font-family: system-ui, sans-serif;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+/* Dark Theme */
+body.dark {
+  background-color: #121212;
+  color: #ffffff;
+}
+
+/* Optional Styling */
+.container {
+  text-align: center;
+  margin-top: 20vh;
+}
+
+button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  border: none;
+  background: #333;
+  color: white;
+  cursor: pointer;
+  border-radius: 6px;
+  transition: 0.3s;
+}
+
+body.dark button {
+  background: #fff;
+  color: #333;
+}

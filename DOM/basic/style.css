@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    background-color: black;
+}
+
+#box{
+    width: 200px;
+    height: 200px;
+    background-color: pink;
+}
+
+button{
+    padding-inline: 1rem;
+    padding-block: .5rem;
+    background-color: gray;
+}

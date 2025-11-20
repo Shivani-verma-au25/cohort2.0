@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    background-color: black;
+}
+
+.container{
+    width: 100vw;
+    height: 100vh;
+    background-color: pink;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button{
+    padding-inline: 1rem;
+    padding-block: .5rem;
+    background-color: black;
+    border-radius: 10px;
+    border: none;
+    color: #ffff;
+    font-size: 1rem;
+    padding: 1rem 2rem;
+}
+button:hover{
+    background-color: rgb(47, 45, 45);
+    cursor: pointer;
+    transition: all .3s ease;
+}
